@@ -1,0 +1,52 @@
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Environment files
+.env
+.env.local
+venv/
+.venv/
+./myenv/
+myenv/
+.myenv/
+# Cache and logs
+*.log
+*.sqlite3
+*.db
+*.pkl
+*.pyo
+*.pid
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Virtual environments
+*.egg-info/
+*.egg/
+.eggs/
+dist/
+build/
+
+# FastAPI specific
+instance/
+
+# Streamlit specific
+.streamlit/secrets.toml
+
+# Flask specific
+instance/
+config.py
+
+# Ignore node_modules/ folder if using npm
+node_modules/
+
+# VSCode specific
+.vscode/

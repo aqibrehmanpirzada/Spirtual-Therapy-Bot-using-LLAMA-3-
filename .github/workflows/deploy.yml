@@ -1,4 +1,4 @@
-name: Deploy to Hugging Face Spaces
+name: Deploy to Streamlit Community Cloud
 
 # Trigger the workflow when pushing to the main branch
 on:
@@ -21,6 +21,7 @@ jobs:
         with:
           python-version: '3.9'
           
+      # Install dependencies
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
@@ -31,14 +32,10 @@ jobs:
         run: |
           echo "No tests defined, you can add them in the future."
 
-      # Hugging Face API authentication (hardcoded token, NOT recommended)
-      - name: Hugging Face Authentication
-        run: |
-          huggingface-cli login --token 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
-
-      # Push changes to Hugging Face Spaces
-      - name: Push to Hugging Face Spaces
+      # Push changes to Streamlit Community Cloud
+      - name: Push to Streamlit Community Cloud
         run: |
           git config --global user.email "aqibrehmanpirzada75@gmail.com"
           git config --global user.name "aqibrehmanpirzada"
-          git push https://huggingface.co/spaces/aqibrehmanpirzada/Spirtual-Therapy-Bot-using-LLAMA-3- HEAD:main
+          git remote add streamlit https://github.com/aqibrehmanpirzada/Spirtual-Therapy-Bot-using-LLAMA-3-.git
+          git push streamlit main

@@ -148,6 +148,6 @@ if st.button("Generate Response", key="generate_button"):
 st.markdown("""
     <div style='text-align: center; margin-top: 50px;'>
         <hr>
-        <small style='color: #888;'>Powered by DrSunnyAI and FastAPI &middot; Developed by Aqib and Isha</small>
+        <small style='color: #888;'>Powered by DrSunnyAI &middot; Developed by ARPZ</small>
     </div>
 """, unsafe_allow_html=True)

@@ -95,7 +95,7 @@ This will launch the app, and you can open it in your browser at `http://localho
 ![Home Page](https://placeholder.com/screenshot2.png)
 
 ### Example Conversation:
-![Conversation Example](demo chat.png)
+![Conversation Example](demo_chat.png)
 
 ---
 

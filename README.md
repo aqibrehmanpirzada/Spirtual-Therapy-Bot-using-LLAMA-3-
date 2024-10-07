@@ -44,7 +44,7 @@ Ollama is required to run the **LLaMA 3.1B** model locally. Here's how you can s
 ### 2. Clone the Repository
 Once **Ollama** is set up, clone this repository to your local machine:
 ```bash
-git clone https://github.com/yourusername/spiritual-therapy-bot.git
+git clone https://github.com/aqibrehmanpirzada/Spirtual-Therapy-Bot-using-LLAMA-3-.git
 cd Spirtual-Therapy-Bot-using-LLAMA-3-
 ```
 

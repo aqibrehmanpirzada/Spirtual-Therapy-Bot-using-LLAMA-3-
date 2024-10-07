@@ -1,4 +1,3 @@
-
 ---
 
 # 🧘 Spiritual Therapy Bot: Asian Ways of Treatment 🌿
@@ -96,7 +95,7 @@ This will launch the app, and you can open it in your browser at `http://localho
 ![Home Page](https://placeholder.com/screenshot2.png)
 
 ### Example Conversation:
-![Conversation Example](https://placeholder.com/screenshot3.png)
+![Conversation Example](demo chat.png)
 
 ---
 

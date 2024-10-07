@@ -5,7 +5,7 @@
 
 This repository contains a **Spiritual Therapy Bot** that provides guidance based on traditional Asian treatments and methods using **LLaMA 3.1B**. The application uses **Ollama** as the language model backend and **Streamlit** to create a user-friendly web interface.
 
-![App Screenshot](https://placeholder.com/screenshot1.png)
+![App Screenshot](ui.png)
 
 ---
 
